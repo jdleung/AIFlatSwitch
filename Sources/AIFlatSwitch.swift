@@ -38,7 +38,6 @@ import UIKit
     @IBInspectable open var strokeColor: UIColor = UIColor.black {
         didSet {
             self.circle.strokeColor = strokeColor.cgColor
-            self.checkmark.strokeColor = strokeColor.cgColor
         }
     }
     
@@ -49,6 +48,16 @@ import UIKit
     @IBInspectable open var trailStrokeColor: UIColor = UIColor.gray {
         didSet {
             self.trailCircle.strokeColor = trailStrokeColor.cgColor
+        }
+    }
+    
+    /**
+     Stroke color for checkmark.
+     Checkmark becomes visible when the switch is selected.
+     */
+    @IBInspectable open var checkmarkStrokeColor: UIColor = UIColor.gray {
+        didSet {
+            self.checkmark.strokeColor = checkmarkStrokeColor.cgColor
         }
     }
     

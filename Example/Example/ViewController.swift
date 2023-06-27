@@ -26,6 +26,7 @@ class ViewController: UIViewController {
 		self.programmaticSwitch.strokeColor = UIColor.blue
         self.programmaticSwitch.backgroundLayerColor = UIColor.white
 		self.programmaticSwitch.trailStrokeColor = UIColor.red.withAlphaComponent(0.2)
+        self.programmaticSwitch.checkmarkStrokeColor = UIColor.green.withAlphaComponent(0.8)
 		self.programmaticSwitch.autoresizingMask = [.flexibleWidth, .flexibleHeight]
 		programmaticSwitchContainer.addSubview(programmaticSwitch)
 		
