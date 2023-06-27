@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "jdleung" => "jdleungs@gmail.com" }
   s.source       = { :git => "https://github.com/jdleung/AIFlatSwitch.git", :tag => "#{s.version}" }
-  s.platform     = :ios, '12.0'
+  s.platform     = :ios, '10.0'
   s.source_files = 'Sources/*.{swift}'
   s.swift_version = '5.0'
   s.frameworks   = 'UIKit', 'Foundation'
